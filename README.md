@@ -23,7 +23,7 @@ Telegram bot to generate pyrogram and telethon string session.
 
 1. Clone the repo
    ```markdown
-   git clone https://github.com/RioProjectX/GenerateString
+   git clone https://github.com/Skyzu/skystring
    ```
 2. Get a DATABASE_URL. If you don't know how, deploy using Heroku Button only or delete database things as it's not a compulsion.
    
@@ -66,9 +66,9 @@ Telegram bot to generate pyrogram and telethon string session.
 
 ## Support
 
-Channel :- [Rio Project](https://t.me/rioprojects)
+Channel :- [Project](https://t.me/ProjectSkyzu)
 
-Group Chat :- [Group support](https://t.me/riogroupsupport)
+Group Chat :- [Group support](https://t.me/skyzusupport)
 
 ## :)
 
