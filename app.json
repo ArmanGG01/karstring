@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/RioProjectX/GenerateString",
+  "repository": "https://github.com/Skyzu/skystring",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
