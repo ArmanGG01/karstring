@@ -53,7 +53,7 @@ By @skyzu
     ABOUT = """
 **About This Bot** 
 
-Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @stringriobot
+Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @SkyStringBot
 
 Group Support : [Gabung](https://t.me/skyzusupport)
 
