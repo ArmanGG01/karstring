@@ -9,11 +9,11 @@ Halo {}
 Selamat datang {}
 
 Jika kamu tidak percaya bot ini, 
-1) gausah baca pesan ini
-2) blokir bot atau delete chat
+1) gausah baca pesan ini ngentot
+2) blokir bot atau delete chat memek
 
 Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
-By @skyzu
+By @Kyuraonly
     """
 
     # Home Button
@@ -29,12 +29,12 @@ By @skyzu
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
-        [InlineKeyboardButton("ᴍᴀɪɴᴛᴀɴᴇᴅ ʙʏ​", url="https://t.me/skyzu")],
+        [InlineKeyboardButton("ᴍᴀɪɴᴛᴀɴᴇᴅ ʙʏ​", url="https://t.me/kyuraonly")],
         [
             InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ​​", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ​", callback_data="about")
         ],
-        [InlineKeyboardButton("ɪɴꜰᴏ ʙᴏᴛ ʟᴀɪɴɴʏᴀ​", url="https://t.me/ProjectSkyzu")],
+        [InlineKeyboardButton("ɪɴꜰᴏ ʙᴏᴛ ʟᴀɪɴɴʏᴀ​", url="https://t.me/KyuraProjects")],
     ]
 
     # Help Message
@@ -53,9 +53,9 @@ By @skyzu
     ABOUT = """
 **About This Bot** 
 
-Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @SkyStringBot
+Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @KyuraStringBot
 
-Group Support : [Gabung](https://t.me/skyzusupport)
+Group Support : [Gabung](https://t.me/kyurasupport)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
