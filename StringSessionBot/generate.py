@@ -117,7 +117,7 @@ async def generate_session(bot, msg, telethon=False):
     text = "**{} STRING SESSION** \n\n`{}` \n\nSupport Groups @skyzusupport".format("TELETHON" if telethon else "PYROGRAM", string_session)
     await client.send_message("me", text)
     await client.disconnect()
-    await phone_code_msg.reply("Berhasil Megambil {} string session. \n\nSilahkan cek di Pesan Tersimpan/Saved Message! \n\nBy @skyzu".format("telethon" if telethon else "pyrogram"))
+    await phone_code_msg.reply("Berhasil Megambil {} string session. \n\nSilahkan cek di Pesan Tersimpan/Saved Message! \n\nBy @ProjectSkyzu".format("telethon" if telethon else "pyrogram"))
 
 
 async def cancelled(msg):
