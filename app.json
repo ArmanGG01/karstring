@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/Kyuraxp/kyurastring",
+  "repository": "https://github.com/Kyuraxp/kyurastring1",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
