@@ -22,7 +22,7 @@ from telethon.errors import (
 )
 
 ERROR_MESSAGE = "Oops! An exception occurred! \n\n**Error** : {} " \
-            "\n\nTolong Laporan ke @kyurasupport jika eror " \
+            "\n\nTolong Laporan ke @obrolansuar jika eror " \
             "sensitive information and you if want to report this as " \
             "this error message is not being logged by us!"
 
@@ -114,10 +114,10 @@ async def generate_session(bot, msg, telethon=False):
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = "**{} STRING SESSION** \n\n`{}` \n\nSupport Groups @kyurasupport".format("TELETHON" if telethon else "PYROGRAM", string_session)
+    text = "**{} STRING SESSION** \n\n`{}` \n\nSupport Groups @obrolansuar".format("TELETHON" if telethon else "PYROGRAM", string_session)
     await client.send_message("me", text)
     await client.disconnect()
-    await phone_code_msg.reply("Berhasil Megambil {} string session. \n\nSilahkan cek di Pesan Tersimpan/Saved Message! \n\nBy @KyuraProjects".format("telethon" if telethon else "pyrogram"))
+    await phone_code_msg.reply("Berhasil Megambil {} string session. \n\nSilahkan cek di Pesan Tersimpan \n\nBy @PakkPoll".format("telethon" if telethon else "pyrogram"))
 
 
 async def cancelled(msg):
