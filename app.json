@@ -1,7 +1,7 @@
 {
   "name": "String Session Generator",
   "description": "Telegram bot to generate pyrogram string session",
-  "logo": "https://telegra.ph/file/d841005eca08d0ed2ef36.jpg",
+  "logo": "https://telegra.ph/file/660357518a3b03ee3b636.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -25,12 +25,12 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/Kyuraxp/kyurastring1",
+  "repository": "https://github.com/ArmanGG01/karstring",
   "env": {
     "ENVIRONMENT": {
-      "description": "Don't change ANYTHING.",
+      "description": "JANGAN DI GANTI KONTOL.",
       "required": true,
-      "value": "ANYTHING"
+      "value": "KONTOL"
     },
     "API_ID": {
       "description": "Get this value from my.telegram.org.",
