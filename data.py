@@ -22,16 +22,12 @@ class Data:
     ]
 
     START = """
-Hey {}
-
-Welcome to {}
-
-If you don't trust this bot, 
-1) stop reading this message
-2) delete this chat
-
-Still reading?
-You can use me to generate pyrogram (even version 2) and telethon string session. Use below buttons to learn more !
+𝙷𝙰𝙻𝙾 {}
+𝚂𝙴𝙻𝙰𝙼𝙰𝚃 𝙳𝙰𝚃𝙰𝙽𝙶 𝙳𝙸 {}
+𝙺𝙰𝙻𝙾 𝙺𝙰𝚄 𝙶𝙰𝙺 𝙿𝙴𝚁𝙲𝙰𝚈𝙰 𝚂𝙰𝙼𝙰 𝙱𝙾𝚃 𝙸𝙽𝙸, 
+1) 𝙶𝙰𝚄𝚂𝙰𝙷 𝙱𝙰𝙲𝙰 𝙿𝙴𝚂𝙰𝙽 𝙸𝙽𝙸 𝙺𝙾𝙽𝚃𝙾𝙻
+2) 𝙱𝙻𝙾𝙺𝙸𝚁 𝙱𝙾𝚃 𝙰𝚃𝙰𝚄 𝙳𝙴𝙻𝙰𝚃𝙴 𝙲𝙷𝙰𝚃 𝙼𝙴𝙼𝙴𝙺
+Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
 
 By @Karc0de
     """
