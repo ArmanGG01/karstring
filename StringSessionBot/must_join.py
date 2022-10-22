@@ -1,10 +1,10 @@
-from env import MUST_JOIN
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
+from Config import MUST_JOIN
 
 
-@Client.on_message(filters.incoming & filters.private, group=-1)
+@Client.on_message(~filters.edited & filters.incoming & filters.private, group=-1)
 async def must_join_channel(bot: Client, msg: Message):
     if not MUST_JOIN:  # Not compulsory
         return
@@ -19,10 +19,10 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply(
-                    f"𝙺𝙰𝚄 𝙹𝙾𝙸𝙽 𝙳𝚄𝙻𝚄 [channel]({link}) 𝚄𝙽𝚃𝚄𝙺 𝙼𝙰𝙺𝙴𝙺 𝙱𝙾𝚃 𝙺𝚄. 𝙰𝙱𝙸𝚂 𝙹𝙾𝙸𝙽 𝙱𝙰𝚁𝚄 𝙲𝙾𝙱𝙰𝙺 𝙻𝙰𝙶𝙸 /start",
+                    f"𝙺𝙰𝚄 𝙹𝙾𝙸𝙽 𝙳𝚄𝙻𝚄 [GROUP KU]({link}) 𝚄𝙽𝚃𝚄𝙺 𝙼𝙰𝙺𝙴𝙺 𝙱𝙾𝚃 𝙺𝚄. 𝙰𝙱𝙸𝚂 𝙹𝙾𝙸𝙽 𝙱𝙰𝚁𝚄 𝙲𝙾𝙱𝙰𝙺 𝙻𝙰𝙶𝙸 /start",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("✨ Join Channel ✨", url=link)]
+                        [InlineKeyboardButton("ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ​", url=link)]
                     ])
                 )
                 await msg.stop_propagation()
