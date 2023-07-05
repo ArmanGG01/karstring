@@ -8,6 +8,9 @@
     "python",
     "pyrogram"
    ],
+    "buidpack": [{
+    "url": "heroku/phyton"
+     }],
   "repository": "https://github.com/ArmanGG01/karstring",
   "env": {
     "ENVIRONMENT": {
@@ -34,25 +37,6 @@
       "description": "Add username/id of a channel/group",
       "required": false,
       "value": ""
-    }
-  }
-  "addons": [
-    {
-      "plan": "heroku-postgresql"
-    }
-  ],
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-    }
-  ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "eco"
     }
   }
 }
