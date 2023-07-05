@@ -1,7 +1,17 @@
 {
   "name": "Pyrogram String Session Generator",
-  "description": " Telegram bot to generate pyrogram string session.",
-  "stack": "heroku-22",
+  "description": "Telegram bot to generate pyrogram string session",
+  "logo": "https://telegra.ph/file/7ec22c82f580a334dd13e.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+   ],
+    "buidpack": [{
+    "url": "heroku/phyton"
+     }],
+  "repository": "https://github.com/ArmanGG01/karstring",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -29,23 +39,3 @@
       "value": ""
     }
   }
-  "addons": [
-    {
-      "plan": "heroku-postgresql"
-    }
-  ],
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-    }
-  ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "eco"
-    }
-  }
-}
