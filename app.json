@@ -1,7 +1,6 @@
 {
   "name": "Pyrogram String Session Generator",
   "description": "Telegram bot to generate pyrogram string session",
-   ],
     "buidpack": [{
     "url": "heroku/phyton"
      }],
