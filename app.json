@@ -29,11 +29,6 @@
       "required": true,
       "value": ""
     },
-    "MONGO_URL": {
-      "description": "Buat database.",
-      "required": true,
-      "value": ""
-    },
     "API_HASH": {
       "description": "Get this value from my.telegram.org.",
       "required": true,
