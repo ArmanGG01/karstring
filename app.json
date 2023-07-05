@@ -1,7 +1,7 @@
 {
-  "name": "sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ",
+  "name": "Tempat Ngewe String",
   "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
-  "logo": "https://telegra.ph/file/7ec22c82f580a334dd13e.jpg",
+  "logo": "https://telegra.ph/file/654ddaf472f18b799600b.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -11,7 +11,7 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/ArmanGG01/karstring",
+  "repository": "https://github.com/AnonymousX1025/StringGenBot",
   "env": {
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps.",
@@ -23,8 +23,13 @@
       "required": true,
       "value": ""
     },
+    "OWNER_ID": {
+      "description": "Telegram id of the person who will known as owner of the bot.",
+      "required": true,
+      "value": ""
+    },
     "MUST_JOIN": {
-      "description": "Get this value from Grup Telegram",
+      "description": "Get this value from cloud.mongodb.com",
       "required": true,
       "value": ""
     },
