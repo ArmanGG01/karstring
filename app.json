@@ -1,23 +1,7 @@
 {
   "name": "Pyrogram String Session Generator",
-  "description": "Telegram bot to generate pyrogram string session",
-    "buidpack": [{
-    "url": "heroku/phyton"
-     }],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "eco"
-    }
-  },
-  "addons": [
-      {
-         "options": {
-            "version": "22"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
+  "description": " Telegram bot to generate pyrogram string session.",
+  "stack": "heroku-22",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -43,6 +27,25 @@
       "description": "Add username/id of a channel/group",
       "required": false,
       "value": ""
+    }
+  }
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
     }
   }
 }
