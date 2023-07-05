@@ -11,10 +11,16 @@
     "buidpack": [{
     "url": "heroku/phyton"
      }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
   "addons": [
       {
          "options": {
-            "version": "12"
+            "version": "22"
          },
          "plan": "heroku-postgresql"
       }
