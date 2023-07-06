@@ -5,3 +5,6 @@ SQLAlchemy~=1.4.21
 psycopg2
 pyromod~=1.5
 pyrogram==2.*
+python-dotenv
+listen
+Data
