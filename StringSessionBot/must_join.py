@@ -2,7 +2,6 @@ from env import MUST_JOIN
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
-from Config import MUST_JOIN
 
 
 @Client.on_message(filters.incoming & filters.private, group=-1)
